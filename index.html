@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grubbly - Cook with What You Have</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">🍳 Grubbly</h1>
+            <p class="tagline">Delicious meals from your pantry</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Ingredient Input Section -->
+        <section class="ingredient-section">
+            <h2>What's in your kitchen?</h2>
+            <div class="input-container">
+                <input type="text" placeholder="Add ingredients (chicken, rice, tomatoes...)" class="ingredient-input">
+                <button class="add-btn">Add</button>
+            </div>
+            <div class="ingredient-tags">
+                <span class="tag">Chicken <span class="remove">×</span></span>
+                <span class="tag">Rice <span class="remove">×</span></span>
+                <span class="tag">Tomatoes <span class="remove">×</span></span>
+                <span class="tag">Onions <span class="remove">×</span></span>
+            </div>
+        </section>
+
+        <!-- Dietary Filters -->
+        <section class="filters-section">
+            <h3>Dietary Preferences</h3>
+            <div class="filter-grid">
+                <label class="filter-option">
+                    <input type="checkbox"> Vegetarian
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Vegan
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Gluten-Free
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Low-Carb
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Dairy-Free
+                </label>
+                <label class="filter-option">
+                    <input type="checkbox"> Keto
+                </label>
+            </div>
+        </section>
+
+        <!-- Recipe Results -->
+        <section class="recipes-section">
+            <div class="section-header">
+                <h2>Perfect Matches for You</h2>
+                <span class="results-count">12 recipes found</span>
+            </div>
+
+            <div class="recipes-grid">
+                <!-- Recipe Card 1 -->
+                <div class="recipe-card featured">
+                    <div class="recipe-image">🍛</div>
+                    <div class="recipe-content">
+                        <div class="recipe-header">
+                            <h3>Chicken & Rice Bowl</h3>
+                            <button class="save-btn">♡</button>
+                        </div>
+                        <div class="match-info">
+                            <span class="match-badge">Perfect Match</span>
+                            <span class="ingredients-match">4/4 ingredients</span>
+                        </div>
+                        <div class="recipe-details">
+                            <span class="time">⏱️ 25 min</span>
+                            <span class="difficulty">👨‍🍳 Easy</span>
+                        </div>
+                        <div class="ingredients-preview">
+                            <span class="has">✓ Chicken</span>
+                            <span class="has">✓ Rice</span>
+                            <span class="has">✓ Tomatoes</span>
+                            <span class="has">✓ Onions</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe Card 2 -->
+                <div class="recipe-card">
+                    <div class="recipe-image">🍝</div>
+                    <div class="recipe-content">
+                        <div class="recipe-header">
+                            <h3>Tomato Chicken Pasta</h3>
+                            <button class="save-btn">♡</button>
+                        </div>
+                        <div class="match-info">
+                            <span class="match-badge good">Good Match</span>
+                            <span class="ingredients-match">3/5 ingredients</span>
+                        </div>
+                        <div class="recipe-details">
+                            <span class="time">⏱️ 30 min</span>
+                            <span class="difficulty">👨‍🍳 Medium</span>
+                        </div>
+                        <div class="ingredients-preview">
+                            <span class="has">✓ Chicken</span>
+                            <span class="has">✓ Tomatoes</span>
+                            <span class="has">✓ Onions</span>
+                            <span class="need">+ Pasta</span>
+                            <span class="need">+ Garlic</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recipe Card 3 -->
+                <div class="recipe-card">
+                    <div class="recipe-image">🥗</div>
+                    <div class="recipe-content">
+                        <div class="recipe-header">
+                            <h3>Fresh Garden Salad</h3>
+                            <button class="save-btn saved">♥</button>
+                        </div>
+                        <div class="match-info">
+                            <span class="match-badge okay">Okay Match</span>
+                            <span class="ingredients-match">2/6 ingredients</span>
+                        </div>
+                        <div class="recipe-details">
+                            <span class="time">⏱️ 10 min</span>
+                            <span class="difficulty">👨‍🍳 Easy</span>
+                        </div>
+                        <div class="ingredients-preview">
+                            <span class="has">✓ Tomatoes</span>
+                            <span class="has">✓ Onions</span>
+                            <span class="need">+ Lettuce</span>
+                            <span class="need">+ Cucumber</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+        <!-- Saved Recipes Section -->
+<section class="saved-section">
+    <div class="section-header">
+        <h2>Your Recipe Collection</h2>
+        <a href="collection.html" class="see-all-btn">See All</a>
+    </div>
+    <div class="saved-list">
+        <div class="saved-item">
+            <span class="saved-name">🍛 Chicken & Rice Bowl</span>
+            <span class="saved-date">Saved 2 days ago</span>
+        </div>
+        <div class="saved-item">
+            <span class="saved-name">🥗 Fresh Garden Salad</span>
+            <span class="saved-date">Saved 1 week ago</span>
+        </div>
+    </div>
+</section>
+    </main>
+</body>
+</html>
