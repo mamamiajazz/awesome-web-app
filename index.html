@@ -8,70 +8,129 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1 class="logo">🍳 Grubbly</h1>
-            <p class="tagline">Delicious meals from your pantry</p>
+    <div class="header-background">
+        <div class="food-images">
+            <div class="food-item avocado">🥑</div>
+            <div class="food-item tomato">🍅</div>
+            <div class="food-item carrot">🥕</div>
+            <div class="food-item broccoli">🥦</div>
+            <div class="food-item pepper">🫑</div>
+            <div class="food-item salad">🥗</div>
+            <div class="food-item pasta">🍝</div>
+            <div class="food-item soup">🍲</div>
+            <div class="food-item sandwich">🥪</div>
+            <div class="food-item fruit">🍓</div>
+            <div class="food-item banana">🍌</div>
+            <div class="food-item orange">🍊</div>
         </div>
-    </header>
+    </div>
+    <div class="container header-content">
+        <h1 class="logo">🍳 Grubbly</h1>
+        <p class="tagline">✨ Delicious meals from your pantry! ✨</p>
+        <div class="header-bubbles">
+            <div class="bubble bubble-1"></div>
+            <div class="bubble bubble-2"></div>
+            <div class="bubble bubble-3"></div>
+            <div class="bubble bubble-4"></div>
+            <div class="bubble bubble-5"></div>
+        </div>
+    </div>
+</header>
+
 
     <main class="container">
         <!-- Ingredient Input Section -->
-        <section class="ingredient-section">
-            <h2>What's in your kitchen?</h2>
-            <div class="input-container">
-                <input type="text" placeholder="Add ingredients (chicken, rice, tomatoes...)" class="ingredient-input">
-                <button class="add-btn">Add</button>
+<section class="ingredient-section">
+    <h2>What's in your kitchen?</h2>
+    <div class="input-container">
+        <div class="search-wrapper">
+            <input type="text" placeholder="Search ingredients (chicken, avocado, quinoa...)" class="ingredient-input" id="ingredient-search">
+            <div class="search-dropdown" id="search-dropdown">
+                <!-- Search results will appear here -->
+                <div class="dropdown-item">🍗 Chicken Breast</div>
+                <div class="dropdown-item">🥑 Avocado</div>
+                <div class="dropdown-item">🍅 Tomatoes</div>
+                <div class="dropdown-item">🧄 Garlic</div>
+                <div class="dropdown-item">🧅 Onions</div>
+                <div class="dropdown-item">🫑 Bell Peppers</div>
+                <div class="dropdown-item">🥬 Spinach</div>
+                <div class="dropdown-item">🍄 Mushrooms</div>
+                <div class="dropdown-item">🥕 Carrots</div>
+                <div class="dropdown-item">🥔 Potatoes</div>
+                <div class="dropdown-item">🥩 Ground Beef</div>
+                <div class="dropdown-item">🍝 Pasta</div>
+                <div class="dropdown-item">🥚 Eggs</div>
+                <div class="dropdown-item">🥛 Milk</div>
+                <div class="dropdown-item">🌾 Flour</div>
+                <div class="dropdown-item">🥦 Broccoli</div>
+                <div class="dropdown-item">🍋 Lemon</div>
+                <div class="dropdown-item">🐟 Salmon</div>
+                <div class="dropdown-item">🍠 Sweet Potato</div>
+                <div class="dropdown-item">🌾 Quinoa</div>
+                <div class="dropdown-item">🥒 Cucumber</div>
+                <div class="dropdown-item">🌽 Corn</div>
+                <div class="dropdown-item">🌿 Cilantro</div>
+                <div class="dropdown-item">🍯 Honey</div>
+                <div class="dropdown-item">🧀 Cheddar Cheese</div>
+                <div class="dropdown-item">🫒 Olive Oil</div>
+                <div class="dropdown-item">🫘 Black Beans</div>
+                <div class="dropdown-item">🧀 Parmesan</div>
+                <div class="dropdown-item">🌿 Basil</div>
+                <div class="dropdown-item">🥒 Zucchini</div>
+                <div class="dropdown-item">🦃 Turkey</div>
+                <div class="dropdown-item">🥬 Lettuce</div>
+                <div class="dropdown-item">🥥 Coconut Milk</div>
+                <div class="dropdown-item">🫚 Ginger</div>
+                <div class="dropdown-item">🥫 Soy Sauce</div>
+                <div class="dropdown-item">🥯 Bread Crumbs</div>
+                <div class="dropdown-item">🍷 Red Wine</div>
+                <div class="dropdown-item">🥄 Greek Yogurt</div>
+                <div class="dropdown-item">🌶️ Jalapeños</div>
+                <div class="dropdown-item">🥜 Almonds</div>
+                <div class="dropdown-item">🍚 Brown Rice</div>
+                <div class="dropdown-item">🫐 Blueberries</div>
+                <div class="dropdown-item">🍓 Strawberries</div>
+                <div class="dropdown-item">🥭 Mango</div>
+                <div class="dropdown-item">🍌 Bananas</div>
+                <div class="dropdown-item">🥖 Bread</div>
+                <div class="dropdown-item">🧈 Butter</div>
+                <div class="dropdown-item">🧂 Salt</div>
+                <div class="dropdown-item">⚫ Black Pepper</div>
+                <div class="dropdown-item">🌶️ Paprika</div>
+                <div class="dropdown-item">🌿 Oregano</div>
+                <div class="dropdown-item">🌿 Thyme</div>
+                <div class="dropdown-item">🌿 Rosemary</div>
+                <div class="dropdown-item">🥫 Diced Tomatoes</div>
+                <div class="dropdown-item">🍋 Lime</div>
+                <div class="dropdown-item">🥫 Chicken Broth</div>
+                <div class="dropdown-item">🥫 Vegetable Broth</div>
+                <div class="dropdown-item">🍜 Noodles</div>
+                <div class="dropdown-item">🌮 Tortillas</div>
+                <div class="dropdown-item">🧄 Garlic Powder</div>
+                <div class="dropdown-item">🧅 Onion Powder</div>
+                <div class="dropdown-item">🥫 Coconut Oil</div>
+                <div class="dropdown-item">🍯 Maple Syrup</div>
+                <div class="dropdown-item">🥫 Balsamic Vinegar</div>
+                <div class="dropdown-item">🍋 Apple Cider Vinegar</div>
             </div>
-            <div class="ingredient-tags">
-                <span class="tag">Chicken <span class="remove">×</span></span>
-                <span class="tag">Rice <span class="remove">×</span></span>
-                <span class="tag">Tomatoes <span class="remove">×</span></span>
-                <span class="tag">Onions <span class="remove">×</span></span>
-                <div class="ingredient-tags">
-        <span class="tag">Chicken <span class="remove">×</span></span>
-        <span class="tag">Rice <span class="remove">×</span></span>
-        <span class="tag">Tomatoes <span class="remove">×</span></span>
-        <span class="tag">Onions <span class="remove">×</span></span>
-        <span class="tag">Bell Peppers <span class="remove">×</span></span>
-        <span class="tag">Garlic <span class="remove">×</span></span>
-        <span class="tag">Olive Oil <span class="remove">×</span></span>
-        <span class="tag">Black Beans <span class="remove">×</span></span>
-        <span class="tag">Cheddar Cheese <span class="remove">×</span></span>
-        <span class="tag">Spinach <span class="remove">×</span></span>
-        <span class="tag">Mushrooms <span class="remove">×</span></span>
-        <span class="tag">Carrots <span class="remove">×</span></span>
-        <span class="tag">Potatoes <span class="remove">×</span></span>
-        <span class="tag">Ground Beef <span class="remove">×</span></span>
-        <span class="tag">Pasta <span class="remove">×</span></span>
-        <span class="tag">Eggs <span class="remove">×</span></span>
-        <span class="tag">Milk <span class="remove">×</span></span>
-        <span class="tag">Flour <span class="remove">×</span></span>
-        <span class="tag">Broccoli <span class="remove">×</span></span>
-        <span class="tag">Lemon <span class="remove">×</span></span>
-        <span class="tag">Avocado <span class="remove">×</span></span>
-        <span class="tag">Salmon <span class="remove">×</span></span>
-        <span class="tag">Sweet Potato <span class="remove">×</span></span>
-        <span class="tag">Quinoa <span class="remove">×</span></span>
-        <span class="tag">Greek Yogurt <span class="remove">×</span></span>
-        <span class="tag">Cucumber <span class="remove">×</span></span>
-        <span class="tag">Corn <span class="remove">×</span></span>
-        <span class="tag">Cilantro <span class="remove">×</span></span>
-        <span class="tag">Lime <span class="remove">×</span></span>
-        <span class="tag">Coconut Milk <span class="remove">×</span></span>
-        <span class="tag">Ginger <span class="remove">×</span></span>
-        <span class="tag">Soy Sauce <span class="remove">×</span></span>
-        <span class="tag">Honey <span class="remove">×</span></span>
-        <span class="tag">Parmesan <span class="remove">×</span></span>
-        <span class="tag">Basil <span class="remove">×</span></span>
-        <span class="tag">Zucchini <span class="remove">×</span></span>
-        <span class="tag">Turkey <span class="remove">×</span></span>
-        <span class="tag">Lettuce <span class="remove">×</span></span>
-        <span class="tag">Red Wine <span class="remove">×</span></span>
-        <span class="tag">Bread Crumbs <span class="remove">×</span></span>
-</div>
-
-            </div>
-        </section>
+        </div>
+        <button class="add-btn">Add</button>
+    </div>
+    <div class="ingredient-tags" id="selected-ingredients">
+        <span class="tag">🍗 Chicken <span class="remove" data-ingredient="chicken">×</span></span>
+        <span class="tag">🍚 Rice <span class="remove" data-ingredient="rice">×</span></span>
+        <span class="tag">🍅 Tomatoes <span class="remove" data-ingredient="tomatoes">×</span></span>
+        <span class="tag">🧅 Onions <span class="remove" data-ingredient="onions">×</span></span>
+        <span class="tag">🫑 Bell Peppers <span class="remove" data-ingredient="bell-peppers">×</span></span>
+        <span class="tag">🧄 Garlic <span class="remove" data-ingredient="garlic">×</span></span>
+        <span class="tag">🫒 Olive Oil <span class="remove" data-ingredient="olive-oil">×</span></span>
+        <span class="tag">🫘 Black Beans <span class="remove" data-ingredient="black-beans">×</span></span>
+    </div>
+    <div class="ingredient-summary">
+        <span class="ingredient-count">8 ingredients selected</span>
+        <button class="clear-all-btn">Clear All</button>
+    </div>
+</section>
 
         <!-- Dietary Filters -->
         <section class="filters-section">
@@ -167,7 +226,7 @@
                         </div>
                         <div class="match-info">
                             <span class="match-badge okay">Okay Match</span>
-                            <span class="ingredients-match">2/6 ingredients</span>
+                            <span class="ingredients-match">2/4 ingredients</span>
                         </div>
                         <div class="recipe-details">
                             <span class="time">⏱️ 10 min</span>
